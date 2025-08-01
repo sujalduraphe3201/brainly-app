@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+dotenv.config()
 
-dotenv.config();
 
-const mongoUrl = process.env.MONGO_URL || "mongodb://localhost:27017/brainly";
+const mongoUrl = process.env.MONGO_URL || "mongodb+srv://suju4021:vector3201@ecommerce.dlcaz.mongodb.net/brainly" ;
 
 export const DB = async () => {
     try {
