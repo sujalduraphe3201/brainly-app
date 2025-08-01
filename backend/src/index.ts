@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 import { DB } from "./db/db";
 import { userMiddleware } from "./middleware/userMiddleware";
-import { ContentModel, ShareModel, UserSignupModel } from "./models/schema";
+import { ContentModel, ShareModel, UserSignupModel } from "./models/Schema";
 
 dotenv.config();
 const app = express();
